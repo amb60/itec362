@@ -1,1 +1,75 @@
+/* General styles */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+header img {
+  vertical-align: middle;
+  height: 50px;
+}
+
+header h1 {
+  display: inline;
+  font-size: 1.8em;
+  margin-left: 10px;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  overflow: hidden;
+  font-size: 1.1em;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+/* Section styles */
+section {
+  padding: 20px;
+}
+
+/* Featured recipe styles */
+section h2 {
+  font-size: 1.5em;
+}
+
+section p {
+  font-size: 1.2em;
+}
+
+section img {
+  float: right;
+  margin-left: 20px;
+  width: 40%;
+  max-width: 300px;
+}
