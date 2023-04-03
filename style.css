@@ -116,3 +116,8 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #333;
 }
+
+/* Centering Contact Form title */
+section h2-contact-form {
+  text-align: center;
+}
