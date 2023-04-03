@@ -68,7 +68,7 @@ section p {
 }
 
 section img {
-  float: right;
+  float: left;
   margin-left: 20px;
   width: 40%;
   max-width: 300px;
