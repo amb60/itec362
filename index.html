@@ -20,24 +20,53 @@
   <link rel="stylesheet" href="./style.css">
   </head>
   <body>
+    <div class="nav-container">
     <header>
       <h1><img src="./skillet.png" alt="logo" width="100">The Cast Iron Skillet Blog</h1>
       <nav>
         <ul>
-          <li style="display: inline-block;"><a href="./index.html">Home</a></li>
-          <li style="display: inline-block;"><a href="./recipes.html">Recipes</a></li>
-          <li style="display: inline-block;"><a href=".maintaining-your-cast-iron.html">Maintaining Your Cast Iron</a></li>
+          <li class ="active" style="display: inline-block;"><a href="./index.html">Home</a></li>
+          <li class="dropdown" style="display: inline-block;">
+            <a href="#">Recipes</a>
+            <ul class="dropdown">
+              <li><a href="./recipe1.html">Skillet Cookie</a></li>
+              <li><a href="./recipe2.html">Paprika Chicken Skillet</a></li>
+              <li><a href="./recipe3.html">Cast Iron Steak</a></li>
+              <li><a href="./recipe4.html">Cast Iron Cornbread</a></li>
+              <li><a href="./recipe5.html">Ham and Cheese Veggie Skillet</a></li>
+            </ul>
+          </li>
+          <li style="display: inline-block;"><a href="./maintaining-your-cast-iron.html">Maintaining Your Cast Iron</a></li>
           <li style="display: inline-block;"><a href="./contact.html">Contact Us</a></li>
         </ul>
       </nav>
     </header>
+  </div>
     <section>
       <p>Welcome to our blog! We love cooking with cast iron and want to share our passion with you. Browse our recipes, tips, and tricks to get the most out of your cast iron skillet.</p>
     </section>
     <section>
-      <h2>Featured Recipe: Large Skillet Cookie</h2>
-      <p>This cookie was cooked in a skillet - from regular cookie dough! It's warm and gooey on the inside with a nice outside crust. Perfectly cooked!</p>
-      <img src=./skilletcookie.png></img>
+      <h2><a href="./recipe1.html">Featured Recipe: Large Skillet Cookie</a></h2>
+      <div>
+        <img style="float: left; margin-right: 20px;" src="./skilletcookie.png" alt="Skillet Cookie">
+        <p>This cookie was cooked in a skillet, giving it a crispy exterior and warm, gooey interior. It's perfectly cooked, with just the right texture and taste. What makes it great is that it's made from regular cookie        dough, but by cooking it in a cast iron skillet, the cookie is cooked evenly. The smell of the cookie while it's in the oven is amazing, making it a comforting treat that's easy to make and satisfying to eat.</p>
+      </div>
+      <div style="clear:both;"></div>
+    </section>   
+    <br>
+    <section>
+      <h2>Why Cast Iron?</h2>
+      <div>
+        <img style="float: left; margin-right: 20px;" height="213px" width="320" src="./skillet2.jpg" alt="Skillet Image">
+        <p>Cast iron cookware offers several advantages over other types of cookware. It has superior heat retention, allowing for even cooking and reducing the risk of burning food. Cast iron also develops a natural non-stick surface when properly seasoned and maintained. This versatile material can go from stovetop to oven, making it perfect for various cooking techniques. Moreover, cast iron is highly durable, lasting for generations when properly cared for. With all these benefits, it's no wonder that many cooks choose cast iron skillets for their favorite recipes.</p>
+      </div>
+      <div style="clear:both;"></div>
+    </section>  
+    <br>
+    <section>
+      <footer>
+        &copy; 2023 The Cast Iron Skillet Blog. All rights reserved.
+      </footer>    
     </section>
   </body>
 </html>

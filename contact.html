@@ -24,14 +24,23 @@
       <nav>
         <ul>
           <li style="display: inline-block;"><a href="./index.html">Home</a></li>
-          <li style="display: inline-block;"><a href="./recipes.html">Recipes</a></li>
-          <li style="display: inline-block;"><a href=".maintaining-your-cast-iron.html">Maintaining Your Cast Iron</a></li>
-          <li style="display: inline-block;"><a href="./contact.html">Contact Us</a></li>
+          <li class="dropdown" style="display: inline-block;">
+            <a href="#">Recipes</a>
+            <ul class="dropdown">
+              <li><a href="./recipe1.html">Skillet Cookie</a></li>
+              <li><a href="./recipe2.html">Paprika Chicken Skillet</a></li>
+              <li><a href="./recipe3.html">Cast Iron Steak</a></li>
+              <li><a href="./recipe4.html">Cast Iron Cornbread</a></li>
+              <li><a href="./recipe5.html">Ham and Cheese Veggie Skillet</a></li>
+            </ul>
+          </li>
+          <li style="display: inline-block;"><a href="./maintaining-your-cast-iron.html">Maintaining Your Cast Iron</a></li>
+          <li class ="active" style="display: inline-block;"><a href="./contact.html">Contact Us</a></li>
         </ul>
       </nav>
     </header>
     <section>
-      <h2-contact-form>Contact Form</h2-contact-form>
+      <h2 style="text-align: center">Contact Form</h2>
       <form action="/submit.php" method="POST">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required><br><br>
@@ -44,6 +53,12 @@
         
         <input type="submit" value="Submit">
       </form>
+    </section>
+    <br>
+    <section>
+      <footer>
+        &copy; 2023 The Cast Iron Skillet Blog. All rights reserved.
+      </footer>    
     </section>
   </body>
 </html>
